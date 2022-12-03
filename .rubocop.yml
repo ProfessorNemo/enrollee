@@ -44,3 +44,6 @@ convention:Style/HashSyntax:
 
 Rails/SkipsModelValidations:
   Enabled: false
+
+Layout/LineLength:
+  Enabled: false
