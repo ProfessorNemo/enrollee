@@ -1,0 +1,46 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0.3
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ParameterLists:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 200
+
+CyclomaticComplexity:
+  Enabled: false
+
+PerceivedComplexity:
+  Enabled: false
+
+Rails/I18nLocaleTexts:
+  Enabled: false
+
+Rails/FilePath:
+  Enabled: false
+
+Rails/HttpPositionalArguments:
+  Enabled: false
+
+Layout/IndentationConsistency:
+  Enabled: false
+
+convention:Style/HashSyntax:
+  Enabled: false
+
+Rails/SkipsModelValidations:
+  Enabled: false
